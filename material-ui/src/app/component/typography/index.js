@@ -11,10 +11,6 @@ const CustomTypography =({})=> {
     return (
         <div className={classes.root}>
             <Typography variant="subtitle2" className ={classes.textStyle} align = 'center'>
-                <Box fontWeight="fontWeightLight" m={1}>
-                    Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.
-                    Donec sed odio operae, eu vulputate felis rhoncus.
-                </Box>
 
                 <Box fontWeight="fontWeightRegular" m={1}>
                     Regular
