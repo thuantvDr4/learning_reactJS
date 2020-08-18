@@ -6,6 +6,8 @@ import ButtonIcon from './component/button/Button-icon';
 import ButtonGroup from './component/button/Button-group';
 import CheckBoxBasic from './component/checkBox/CheckBox-basic';
 import CheckBoxIcon from './component/checkBox/CheckBox-icon';
+import FloatingBasic from './component/floating/Floating-Basic';
+import FloatingWithAnimation from './component/floating/Floating-animation';
 
 const useStyles = makeStyles({
     root: {
@@ -26,6 +28,9 @@ function App() {
 
             <CheckBoxBasic/>
             <CheckBoxIcon/>
+
+            <FloatingBasic/>
+            <FloatingWithAnimation/>
 
         </div>
     );
