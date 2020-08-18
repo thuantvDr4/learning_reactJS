@@ -4,10 +4,15 @@ import './index.css';
 // import App from './App';
 import App from './app/App';
 import * as serviceWorker from './serviceWorker';
+import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import {theme} from './app/theme';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <ThemeProvider theme={theme}>
+            <App />
+      </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
