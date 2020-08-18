@@ -8,6 +8,8 @@ import CheckBoxBasic from './component/checkBox/CheckBox-basic';
 import CheckBoxIcon from './component/checkBox/CheckBox-icon';
 import FloatingBasic from './component/floating/Floating-Basic';
 import FloatingWithAnimation from './component/floating/Floating-animation';
+import DateTimePicker from './component/date_time/Date-time-picker';
+
 
 const useStyles = makeStyles({
     root: {
@@ -19,20 +21,22 @@ const useStyles = makeStyles({
 function App() {
     const classes = useStyles();
     return (
-        <div className={classes.root}>
-            <CusTypography/>
+            <div className={classes.root}>
+                <CusTypography/>
 
-            <ButtonNormal/>
-            <ButtonIcon/>
-            <ButtonGroup/>
+                <ButtonNormal/>
+                <ButtonIcon/>
+                <ButtonGroup/>
 
-            <CheckBoxBasic/>
-            <CheckBoxIcon/>
+                <CheckBoxBasic/>
+                <CheckBoxIcon/>
 
-            <FloatingBasic/>
-            <FloatingWithAnimation/>
+                <FloatingBasic/>
+                <FloatingWithAnimation/>
 
-        </div>
+                <DateTimePicker/>
+
+            </div>
     );
 }
 
