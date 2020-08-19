@@ -9,6 +9,10 @@ import CheckBoxIcon from './component/checkBox/CheckBox-icon';
 import FloatingBasic from './component/floating/Floating-Basic';
 import FloatingWithAnimation from './component/floating/Floating-animation';
 import DateTimePicker from './component/date_time/Date-time-picker';
+import RadioBasic from './component/radio/Radio-Basic';
+import RadioLabelPlacement from './component/radio/Radio-LabelPlacement';
+import RadioShowError from './component/radio/Radio-ShowError';
+import RadioCustomized from './component/radio/Radio-Customized';
 
 
 const useStyles = makeStyles({
@@ -35,6 +39,11 @@ function App() {
                 <FloatingWithAnimation/>
 
                 <DateTimePicker/>
+
+                <RadioBasic/>
+                <RadioLabelPlacement/>
+                <RadioShowError/>
+                <RadioCustomized/>
 
             </div>
     );

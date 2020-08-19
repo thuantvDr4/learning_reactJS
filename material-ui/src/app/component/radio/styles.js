@@ -5,12 +5,16 @@ import { blue, green } from '@material-ui/core/colors';
 export const useStyles = makeStyles((theme)=>({
     root: {
         '& > *': {
-            margin: theme.spacing(1),
+            margin: theme.spacing(2),
         },
     },
 
-    extendedIcon: {
-        marginRight: theme.spacing(1),
+    button: {
+        margin: theme.spacing(1, 1, 0, 0),
+    },
+
+    formControl: {
+        margin: theme.spacing(3),
     },
 
 }));
