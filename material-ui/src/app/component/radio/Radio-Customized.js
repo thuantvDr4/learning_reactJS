@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FormControl, FormLabel, FormControlLabel, Radio, RadioGroup  } from '@material-ui/core';
+import {FormControl, FormLabel, FormControlLabel, Radio, RadioGroup, Typography} from '@material-ui/core';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import {useStyles as mainStyles} from './styles';
@@ -86,6 +86,9 @@ const RadioCustomized =({})=> {
     return (
         <>
             <div className={classes.root}>
+                {/**...title..*/}
+                <Typography variant={'h5'}> Customized Radio </Typography>
+                {/**....*/}
                 <FormControl component="fieldset">
                     <FormLabel
                         color = 'secondary'

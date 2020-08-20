@@ -13,6 +13,9 @@ import RadioBasic from './component/radio/Radio-Basic';
 import RadioLabelPlacement from './component/radio/Radio-LabelPlacement';
 import RadioShowError from './component/radio/Radio-ShowError';
 import RadioCustomized from './component/radio/Radio-Customized';
+import SelectSimple from './component/select/Select-Simple';
+import SelectNative from './component/select/Select-Native';
+import SelectCustomized from './component/select/Select-Customized';
 
 
 const useStyles = makeStyles({
@@ -44,6 +47,10 @@ function App() {
                 <RadioLabelPlacement/>
                 <RadioShowError/>
                 <RadioCustomized/>
+
+                <SelectSimple/>
+                <SelectNative/>
+                <SelectCustomized/>
 
             </div>
     );

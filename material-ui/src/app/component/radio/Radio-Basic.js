@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FormControl, FormLabel, FormControlLabel, Radio, RadioGroup  } from '@material-ui/core';
+import {FormControl, FormLabel, FormControlLabel, Radio, RadioGroup, Typography} from '@material-ui/core';
 import {useStyles} from './styles';
 
 //color
@@ -26,6 +26,9 @@ const RadioBasic =({})=> {
     return (
         <>
             <div className={classes.root}>
+                {/**...title..*/}
+                <Typography variant={'h5'}> Basic Radio </Typography>
+                {/**...*/}
                <FormControl component="fieldset">
                     <FormLabel
                         color = 'secondary'
