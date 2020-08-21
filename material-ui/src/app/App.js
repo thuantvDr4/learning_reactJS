@@ -16,6 +16,9 @@ import RadioCustomized from './component/radio/Radio-Customized';
 import SelectSimple from './component/select/Select-Simple';
 import SelectNative from './component/select/Select-Native';
 import SelectCustomized from './component/select/Select-Customized';
+import SelectMultiple from './component/select/Select-Multiple';
+import SelectWithDialog from './component/select/SelectWithDialog';
+import SelectGrouping from './component/select/Select-Grouping';
 
 
 const useStyles = makeStyles({
@@ -51,6 +54,9 @@ function App() {
                 <SelectSimple/>
                 <SelectNative/>
                 <SelectCustomized/>
+                <SelectMultiple/>
+                <SelectWithDialog/>
+                <SelectGrouping/>
 
             </div>
     );

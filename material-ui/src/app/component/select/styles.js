@@ -19,6 +19,32 @@ export const useStyles = makeStyles((theme)=>({
     margin: {
         margin: theme.spacing(1),
     },
+    chips: {
+        display: 'flex',
+        flexWrap: 'wrap',
+    },
+    chip: {
+        margin: 2,
+    },
+
+}));
+
+
+export const dialogStyles = makeStyles((theme)=>({
+    root: {
+        '& > *': {
+            margin: theme.spacing(2),
+        },
+    },
+    formControl: {
+        margin: theme.spacing(1),
+        minWidth: 120,
+    },
+    container: {
+        display: 'flex',
+        flexWrap: 'wrap',
+    },
+
 
 }));
 

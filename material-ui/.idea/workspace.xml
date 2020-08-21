@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31e66c3-663c-4021-9d9f-e542335db8e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/component/select/Select-Customized.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/select/Select-Native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/select/Select-Simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/select/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/select/Select-Grouping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/select/Select-Multiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/select/SelectWithDialog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/component/radio/Radio-Basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/radio/Radio-Basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/component/radio/Radio-Customized.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/radio/Radio-Customized.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/component/radio/Radio-LabelPlacement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/radio/Radio-LabelPlacement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/component/select/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/select/styles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,40 +25,41 @@
     <session id="-1551554092">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="55" />
+          <entry key="js" value="60" />
           <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="55" />
+          <entry key="JavaScript" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="6" />
+          <entry key="ESLintLanguageService" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="3215" />
+          <entry key="js" value="3594" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="3215" />
+          <entry key="JavaScript" value="3594" />
         </counts>
       </usages-collector>
     </session>
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="352">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -83,20 +81,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/component/select/styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="280">
+              <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Customized.js">
+        <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Grouping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            <state relative-caret-position="736">
+              <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#514#1476#0" />
               </folding>
             </state>
           </provider>
@@ -134,9 +131,12 @@
         <option value="$PROJECT_DIR$/src/app/component/radio/Radio-Basic.js" />
         <option value="$PROJECT_DIR$/src/app/component/radio/Radio-LabelPlacement.js" />
         <option value="$PROJECT_DIR$/src/app/component/radio/Radio-Customized.js" />
-        <option value="$PROJECT_DIR$/src/app/App.js" />
-        <option value="$PROJECT_DIR$/src/app/component/select/styles.js" />
         <option value="$PROJECT_DIR$/src/app/component/select/Select-Customized.js" />
+        <option value="$PROJECT_DIR$/src/app/component/select/Select-Multiple.js" />
+        <option value="$PROJECT_DIR$/src/app/component/select/styles.js" />
+        <option value="$PROJECT_DIR$/src/app/component/select/SelectWithDialog.js" />
+        <option value="$PROJECT_DIR$/src/app/App.js" />
+        <option value="$PROJECT_DIR$/src/app/component/select/Select-Grouping.js" />
       </list>
     </option>
   </component>
@@ -170,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,7 +208,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,12 +253,13 @@
       <workItem from="1597723031493" duration="15825000" />
       <workItem from="1597799827228" duration="4143000" />
       <workItem from="1597804012029" duration="3305000" />
-      <workItem from="1597915255179" duration="4538000" />
+      <workItem from="1597915255179" duration="4975000" />
+      <workItem from="1597973104048" duration="4514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36553000" />
+    <option name="totallyTimeSpent" value="41504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
@@ -461,16 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Simple.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3080">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/component/radio/Radio-Basic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -512,30 +503,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.js">
+    <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Customized.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="259">
+          <caret line="98" column="58" lean-forward="true" selection-end-line="109" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Simple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Multiple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="126" column="21" lean-forward="true" selection-end-line="142" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/select/SelectWithDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="118" column="32" lean-forward="true" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/component/select/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="280">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Customized.js">
+    <entry file="file://$PROJECT_DIR$/src/app/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/select/Select-Grouping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#514#1476#0" />
           </folding>
         </state>
       </provider>
