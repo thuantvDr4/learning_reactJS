@@ -19,6 +19,12 @@ import SelectCustomized from './component/select/Select-Customized';
 import SelectMultiple from './component/select/Select-Multiple';
 import SelectWithDialog from './component/select/SelectWithDialog';
 import SelectGrouping from './component/select/Select-Grouping';
+import SliderBasic from './component/slider/Slider-basic';
+import SliderDiscrete from './component/slider/Slider-discrete';
+import SliderCusMark from './component/slider/Slider-customMark';
+import SliderWithInput from './component/slider/Slider_input';
+import SliderCusTrack from './component/slider/Slider-customTrack';
+import SliderVertical from './component/slider/Slider-vertical';
 
 
 const useStyles = makeStyles({
@@ -57,6 +63,13 @@ function App() {
                 <SelectMultiple/>
                 <SelectWithDialog/>
                 <SelectGrouping/>
+
+                <SliderBasic/>
+                <SliderDiscrete/>
+                <SliderCusMark/>
+                <SliderWithInput/>
+                <SliderCusTrack/>
+                <SliderVertical/>
 
             </div>
     );
