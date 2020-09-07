@@ -25,6 +25,10 @@ import SliderCusMark from './component/slider/Slider-customMark';
 import SliderWithInput from './component/slider/Slider_input';
 import SliderCusTrack from './component/slider/Slider-customTrack';
 import SliderVertical from './component/slider/Slider-vertical';
+import SwitchBasic from './component/switch/Switch-basic';
+import SwitchFormLabel from './component/switch/Switch-formLabel';
+import SwitchFormGroup from './component/switch/Switch-formGroup';
+import SwitchCustomized from './component/switch/Switch_customized';
 
 
 const useStyles = makeStyles({
@@ -70,6 +74,11 @@ function App() {
                 <SliderWithInput/>
                 <SliderCusTrack/>
                 <SliderVertical/>
+
+                <SwitchBasic/>
+                <SwitchFormLabel/>
+                <SwitchFormGroup/>
+                <SwitchCustomized/>
 
             </div>
     );

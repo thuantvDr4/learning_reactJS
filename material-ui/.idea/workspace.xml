@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31e66c3-663c-4021-9d9f-e542335db8e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/component/slider/Slider-basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/slider/Slider-customMark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/slider/Slider-customTrack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/slider/Slider-discrete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/slider/Slider-vertical.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/slider/Slider_input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/component/slider/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/switch/Switch-basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/switch/Switch-formGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/switch/Switch-formLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/switch/Switch_customized.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/component/switch/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
     </list>
@@ -69,29 +67,29 @@
     <session id="-427739557">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="10" />
+          <entry key="js" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="10" />
+          <entry key="JavaScript" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1545" />
+          <entry key="js" value="2838" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1545" />
+          <entry key="JavaScript" value="2838" />
         </counts>
       </usages-collector>
     </session>
@@ -101,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="488">
+              <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -110,24 +108,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/component/slider/Slider-vertical.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/component/switch/styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#516#647#0" />
-              </folding>
+            <state relative-caret-position="676">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/component/slider/styles.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/component/switch/Switch_customized.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="330">
+              <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#300#355#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,9 +172,14 @@
         <option value="$PROJECT_DIR$/src/app/component/slider/Slider-customMark.js" />
         <option value="$PROJECT_DIR$/src/app/component/slider/Slider_input.js" />
         <option value="$PROJECT_DIR$/src/app/component/slider/Slider-customTrack.js" />
-        <option value="$PROJECT_DIR$/src/app/App.js" />
-        <option value="$PROJECT_DIR$/src/app/component/slider/styles.js" />
         <option value="$PROJECT_DIR$/src/app/component/slider/Slider-vertical.js" />
+        <option value="$PROJECT_DIR$/src/app/component/slider/styles.js" />
+        <option value="$PROJECT_DIR$/src/app/component/switch/Switch-basic.js" />
+        <option value="$PROJECT_DIR$/src/app/component/switch/Switch-formGroup.js" />
+        <option value="$PROJECT_DIR$/src/app/component/switch/Switch-formLabel.js" />
+        <option value="$PROJECT_DIR$/src/app/App.js" />
+        <option value="$PROJECT_DIR$/src/app/component/switch/styles.js" />
+        <option value="$PROJECT_DIR$/src/app/component/switch/Switch_customized.js" />
       </list>
     </option>
   </component>
@@ -209,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,10 +245,19 @@
               <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="slider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="material-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="material-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="switch" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,12 +309,13 @@
       <workItem from="1597973104048" duration="4514000" />
       <workItem from="1598324642413" duration="570000" />
       <workItem from="1598404709072" duration="10384000" />
-      <workItem from="1598491491136" duration="1576000" />
+      <workItem from="1598491491136" duration="2571000" />
+      <workItem from="1599444336794" duration="6832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54034000" />
+    <option name="totallyTimeSpent" value="61861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,16 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/slider/Slider-basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/component/slider/Slider-discrete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -609,30 +611,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.js">
+    <entry file="file://$PROJECT_DIR$/src/app/component/slider/Slider-basic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="140">
+          <caret line="28" column="42" lean-forward="true" selection-end-line="59" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/component/slider/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="416">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/component/slider/Slider-vertical.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+        <state relative-caret-position="113">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="50" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#516#647#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/switch/Switch-basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="37" column="43" lean-forward="true" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/switch/Switch-formLabel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/switch/Switch-formGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="41" column="52" lean-forward="true" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/switch/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/switch/Switch_customized.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#300#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
